@@ -1,0 +1,43 @@
+.how-it-works-section {
+    display: flex;
+    padding: 50px 5%;
+    gap: 50px;
+    background-color: #f8f9fa;
+}
+
+.image-panel {
+    flex: 1;
+}
+
+.image-panel img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.checkmark-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.feature-text h3 {
+    margin: 0 0 5px 0;
+}
+
+.feature-text p {
+    margin: 0;
+    color: #666;
+}

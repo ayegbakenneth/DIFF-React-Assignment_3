@@ -1,0 +1,96 @@
+.popularCategories {
+    padding: 50px;
+    background-color: #fdfdfd;
+}
+
+.categories-section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.categories-section-header span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.categories-card {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    height: 180px;
+}
+
+.categories-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.jobCard-icon-container {
+    background-color: #e8f5e9;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.jobCard-icon-container img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.category-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.category-jobs {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .categories-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .categories-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .categories-container {
+        grid-template-columns: 1fr;
+    }
+    .popularCategories {
+        padding: 30px 20px;
+    }
+}
