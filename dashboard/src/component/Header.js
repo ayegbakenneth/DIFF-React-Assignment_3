@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/Header.css';
-import kenPic from '../assets/Ken.jpg'
+import Logo from '../assets/Logo.png';
+import Hero from '../assets/Hero.png'
 function Header() {
     return (
         <div className="headerContainer">
             <header className="header">
                 <nav className="nav">
-                    <img src="./assets/logo.png" alt="logo" className="logo"/>
+                    <img src={Logo} alt="logo" className="logo"/>
                     <ul id="menu">
                         <li>Companies</li>
                         <li>Candidates</li>
@@ -40,7 +41,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="right-panel">
-                        <img src={kenPic} alt="Hero" className="hero-image" />
+                        <img src={Hero} alt="Hero" className="hero-image" />
                     </div>
                 </div>
             </header>
