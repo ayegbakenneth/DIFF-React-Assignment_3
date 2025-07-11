@@ -1,13 +1,14 @@
 .top-companies-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px;
     background-color: #f0f7f0;
   }
   
   .top-companies-text {
-    max-width: 400px;
+    max-width: 450px;
+    margin-right: 100px;
   }
   
   .top-companies-text h2 {
@@ -29,7 +30,7 @@
   .top-companies-logos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
     position: relative;
   }
   

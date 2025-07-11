@@ -4,6 +4,9 @@ import RecommendedJobs from './component/RecommendedJobs.js';
 import HowItWorks from './component/HowItWorks.js';
 import PopularCategories from './component/PopularCategories.js';
 import TopCompanies from './component/TopCompanies.js';
+import Testimonials from './component/Testimonials.js';
+import GetStarted from './component/GetStarted.js';
+import Footer from './component/Footer.js';
 import './App.css';
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
       <HowItWorks />
       <PopularCategories />
       <TopCompanies />
+      <Testimonials />
+      <GetStarted />
+      <Footer />
     </div>
   );
 }

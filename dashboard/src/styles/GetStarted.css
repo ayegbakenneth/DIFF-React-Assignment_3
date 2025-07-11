@@ -1,0 +1,30 @@
+.get-started-container {
+    background-image: url('../assets/GetStartedBackground.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 50px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    margin: 50px;
+  }
+  
+  .get-started-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .get-started-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .get-started-content button {
+    background-color: #00b300;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
