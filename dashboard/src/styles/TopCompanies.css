@@ -1,0 +1,55 @@
+.top-companies-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f0f7f0;
+  }
+  
+  .top-companies-text {
+    max-width: 400px;
+  }
+  
+  .top-companies-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .top-companies-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .top-companies-text a {
+    color: #00b300;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .top-companies-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+  }
+  
+  .logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    max-width: 60%;
+  }

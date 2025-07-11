@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/HowItWorks.css';
-import Images from '../assets/Image.png';
+import Images from '../assets/HowItWorks.png';
 import CheckMark from '../assets/CheckMark.png';
 
 export default function HowItWorks() {
