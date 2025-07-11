@@ -1,4 +1,4 @@
-import ALX from './ALX.jpg';
+
 import Header from './component/Header.js';
 import RecommendedJobs from './component/RecommendedJobs.js';
 import HowItWorks from './component/HowItWorks.js';
